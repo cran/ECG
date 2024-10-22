@@ -1,0 +1,26 @@
+import(stats, graphics, MASS)
+
+importFrom("graphics", "abline", "axis", "barplot", "curve", "legend", "par", "plot", "text")
+importFrom("MASS", "ginv")
+
+exportPattern("^[[:alpha:]]+")
+
+S3method(assess, CGdata)
+S3method(toString, CGdata)
+S3method(print, CGdata)
+S3method(plot, CGdata)
+
+S3method(assess, ECGdata)
+S3method(toString, ECGdata)
+S3method(print, ECGdata)
+S3method(plot, ECGdata)
+
+S3method(assess, CGr)
+S3method(toString, CGr)
+S3method(print, CGr)
+S3method(plot, CGr)
+
+S3method(assess, ECGr)
+S3method(toString, ECGr)
+S3method(print, ECGr)
+S3method(plot, ECGr)
