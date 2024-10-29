@@ -37,6 +37,8 @@ Creates a plot for a series of single observations with the extrapolated center 
 \details{
 	It plots the sequence of approximations for each fraction of the dataset,
 	and it shows the estimated value while extrapolated at zero fraction.
+	Use it in collaboration with CGdata::plot to show the data, the search frame,
+	and the sequence of approximations.
 }
 \value{
 No return value.
@@ -60,10 +62,16 @@ dat<- data.frame(x=1:length(d1),
 CGres <- CGdata(dat)
 ECGres<- ECGdata(dat)
 
+\donttest{ 
+# use it alone, plot the sequence of approximations
+plot(ECGres, add = FALSE)
 
-\donttest{
+# use it in collaboration with CGdata
+# display the Center of Gravity approach for single observation
 plot(CGres, min(dat$x), max(dat$x))
-plot(ECGres, add=FALSE)
+# then add the extrapolation sequence
+plot(ECGres)
 }
+
 }
 \keyword{ ECGdata }

@@ -17,7 +17,7 @@ function(x, ...) {
 			x$input$from, x$input$to, x$input$responseFraction, 
 			use.constant.delta=x$input$use.constant.delta, 
 			f.fixed=x$input$f.fixed, use.f.fixed=x$input$use.f.fixed, ...)
-		plot(CG.c, type="l", lwd=2, add=TRUE, col=8, ...)
+		plot(CG.c, type="l", lwd=2, add=TRUE, col=8)
 	}
 
 	CG.c<- CGdata(data.frame(x=x$input$data$x, y=x$input$data$y), x$input$from, x$input$to, 

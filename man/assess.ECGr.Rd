@@ -32,7 +32,7 @@ H. Gasca-Aragon
 
 \examples{
 require(ECG)
-X.ref<- list(x=pi/2, u=0)
+X.ref<- list(x=pi/2, u=0, dof=Inf)
 N<- 1000
 d0<- 1-sin(seq(1:(5/2*N))/N*pi-pi*3/4)
 set.seed(12345)

@@ -43,7 +43,8 @@ dat<- data.frame(x=1:length(d1),
 
 ECGres<- ECGdata(dat)
 
-assess(ECGres, y=list(x=pi/2, u=0))
+X.ref <- list(x=1250, u=0, dof=Inf)
+assess(ECGres, y=X.ref)
 
 }
 \keyword{ En performance index }

@@ -1,4 +1,4 @@
-c69ad24e3201d10c716ee604a5dab02b *DESCRIPTION
+af3abb5e789d44e7d6a763c86c23c236 *DESCRIPTION
 858a7dd72a264097e7851a23479209ba *NAMESPACE
 b9a0b1296a9f4851d15363d15ef1d956 *R/CGdata.R
 490a9111ca1166b0296649646ca09e3b *R/CGr.R
@@ -11,7 +11,7 @@ f302a9f042ad965bb9b9cb9878b9df1d *R/assess.CGr.R
 f99a452e84a8f6de0b6249228cbbcb07 *R/assess.ECGr.R
 acc85754c206dec086951b1fabefda61 *R/assess.R
 14b2c9dbe1da589fc600fc4cd5be989a *R/plot.CGdata.R
-3b5666c2a46595565e11a3dccaf15a9b *R/plot.CGr.R
+64dbe598dbea534cb4d748192f798971 *R/plot.CGr.R
 5be836cd850a9743177a1a4fe908c3cd *R/plot.ECGdata.R
 42deee01b334f84a9a1bdc1d2ca6d40a *R/plot.ECGr.R
 b4a3dcd036f8fcaa804342553f6095a0 *R/print.CGdata.R
@@ -27,14 +27,14 @@ f559137b5fd527a0d9e72fa8fb6e07ea *man/CGr.Rd
 18f6d5ebc306774bd28697cb4e5c5b19 *man/ECG-package.Rd
 300a1c0b8a27f84056512b6231125ee6 *man/ECGdata.Rd
 5927f3ab4fd08f712dbfd325401440e8 *man/ECGr.Rd
-061a84dd06cedd64bb94c5b7b47ba8b9 *man/assess.CGdata.Rd
-5d2ec6a11b717aad86394606c26d2b2e *man/assess.CGr.Rd
-7a1f97865f6af5e160c663baf13e2d46 *man/assess.ECGdata.Rd
-1f6a9777e99628df1acaef8401bb7469 *man/assess.ECGr.Rd
+f64d9fe993e95e0b895debb45dd25e6e *man/assess.CGdata.Rd
+0dd587493d1d91b9bc7cd8221afe1a2d *man/assess.CGr.Rd
+4958bc9166bf102ea8b59d1aa21badee *man/assess.ECGdata.Rd
+3422c1e7777a8a6e3dfe26ea293b1fba *man/assess.ECGr.Rd
 db66aed987477a4df18759c87f9ab429 *man/assess.Rd
 fd5bd8eaa6f2471c8fa349b66db826d5 *man/plot.CGdata.Rd
 13dfb3e170b4d873e87dc6f3b8eb9240 *man/plot.CGr.Rd
-6f46dd64af84efafff6115ed7d4787c1 *man/plot.ECGdata.Rd
+c5a7c5940c3c9f1121976046a6f778d1 *man/plot.ECGdata.Rd
 a311fc62df7b13fd0f9acda302d155c8 *man/plot.ECGr.Rd
 b81492872fa9a71930746f4a03a3e9aa *man/print.CGdata.Rd
 ff06cbe2c2c5d43d334fcbe7ce7de215 *man/print.CGr.Rd

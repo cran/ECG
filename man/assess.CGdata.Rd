@@ -43,7 +43,9 @@ dat<- data.frame(x=1:length(d1),
 
 CGres<- CGdata(dat)
 
-assess(CGres, y=list(x=pi/2, u=0))
+X.ref <- list(x=1250, u=0, dof=Inf)
+
+assess(CGres, y=X.ref)
 
 }
 \keyword{ En performance index }
